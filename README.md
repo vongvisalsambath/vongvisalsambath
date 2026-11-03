@@ -34,6 +34,14 @@ Branch staff collect property, vehicle and land tax through the web application 
 A bank-wide complaint management platform. Any staff member raises a complaint, the owning department resolves it, the Call Centre verifies with the customer, and a central unit administers and reports. **12 weeks** from mockup to production handover, with six roles in one workflow and three regulatory report types automated.<br>
 <sub>.NET 8 · Angular 18 · PostgreSQL · Docker · nginx</sub>
 
+## Open source
+
+<a href="https://slaclock.vercel.app"><img src="./assets/oss-slaclock.jpg" width="100%" alt="SlaClock demo: opening hours, holidays and a paused ticket on the left; the deadline, counted time and a week view of open, counted and paused hours on the right."></a>
+
+**[SlaClock](https://github.com/vongvisalsambath/slaclock)** · business-hours deadlines and pausable SLA timers for .NET · **[Try it in your browser →](https://slaclock.vercel.app)**<br>
+"Respond within 16 business hours", done properly: weekly hours with lunch breaks and night shifts, holidays and half days, any time zone with daylight saving handled, and a timer that pauses while you wait on the customer. 62 tests on .NET 8 and .NET 10, run on Linux, Windows and macOS.<br>
+<sub>C# · .NET 8 / 10 · xUnit · Blazor WebAssembly · GitHub Actions</sub>
+
 ## Stack
 
 | Layer | What I use |
