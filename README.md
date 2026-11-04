@@ -75,10 +75,10 @@ Smooth real-time candles, six chart types, indicators, ten drawing tools, positi
 | When | Role |
 |---|---|
 | 2025 – now | **Senior Enterprise Service Engineer**, CIMB Bank PLC |
-| 2023 – 2025 | **Full Stack Developer**, SALA Digital Solution |
-| 2019 – 2023 | **Full Stack Developer** (team lead), Melos Co., Ltd |
+| 2023 – 2025 | **Senior Full Stack Developer**, SALA Digital Solution |
+| 2019 – 2023 | **Senior Full Stack Developer** (team lead), Melos Co., Ltd |
 | 2018 – 2019 | **Full-time English study**, Paññasastra University of Cambodia |
-| 2017 – 2018 | **Web Developer & IT Support**, Japara Cambodia |
+| 2017 – 2018 | **Senior Web Developer & IT Support**, Japara Cambodia |
 | 2016 – 2017 | **Software Developer**, Innovation International Group |
 | 2013 – 2016 | **BSc Computer Science**, Royal University of Phnom Penh · GPA 3.83 |
 
