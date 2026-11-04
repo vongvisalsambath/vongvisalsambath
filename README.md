@@ -36,6 +36,12 @@ A bank-wide complaint management platform. Any staff member raises a complaint, 
 
 ## Open source
 
+<a href="https://tickline-chart.vercel.app"><img src="./assets/oss-tickline.jpg" width="100%" alt="Tickline showing live BTC/USDT one-minute candles with Bollinger Bands, volume and RSI panes, a practice position with its countdown, a breakout price alert and a circled swing high."></a>
+
+**[Tickline](https://github.com/vongvisalsambath/tickline)** · a live trading chart for any website, in one HTML tag · **[Live demo →](https://tickline-chart.vercel.app)** · **[Docs](https://tickline-chart.vercel.app/docs/)**<br>
+Smooth real-time candles, six chart types, indicators, ten drawing tools, positions and price alerts, shapes and custom layers drawn from code, full screen in portrait or landscape, and image export, in about 32 KB with no dependencies. Works in plain HTML, React, Vue, Angular, Svelte and Blazor, with over 80 documented settings. Ships an MCP server and a Claude Code plugin so AI assistants can add it to a project. 86 tests.<br>
+<sub>TypeScript · Canvas 2D · Web Components · Vitest · esbuild · MCP</sub>
+
 <a href="https://slaclock.vercel.app"><img src="./assets/oss-slaclock.jpg" width="100%" alt="SlaClock demo: opening hours, holidays and a paused ticket on the left; the deadline, counted time and a week view of open, counted and paused hours on the right."></a>
 
 **[SlaClock](https://github.com/vongvisalsambath/slaclock)** · business-hours deadlines and pausable SLA timers for .NET · **[Try it in your browser →](https://slaclock.vercel.app)**<br>
