@@ -36,15 +36,21 @@ A bank-wide complaint management platform. Any staff member raises a complaint, 
 
 ## Open source
 
+<a href="https://iso20022-viewer.vercel.app"><img src="./assets/oss-iso20022kit.jpg" width="100%" alt="The ISO 20022 Viewer checking a sample payment message: the XML with line numbers on the left; on the right, Valid, and a plain-English summary of who pays whom, how much and when."></a>
+
+**[Iso20022Kit](https://iso20022-viewer.vercel.app)** · read, write and check ISO 20022 payment messages · **[Open the viewer →](https://iso20022-viewer.vercel.app)** · [GitHub](https://github.com/vongvisalsambath/iso20022kit)<br>
+ISO 20022 is the format banks now use for transfers and statements. A .NET library checks pacs.008 and camt.053 messages against the official schema and the rules a bank checks (totals, statement balances, currency decimals, IBAN check digits), and a browser viewer explains any message in plain English without uploading it. A 45-message conformance suite runs against Java, Go and Rust libraries, with [the bugs found in each](https://github.com/vongvisalsambath/iso20022kit/blob/main/docs/comparison.md) published; the .NET library and the viewer give the same verdict on every case. Hardened against hostile input (XXE, entity bombs, validation bypass, hidden characters).<br>
+<sub>C# · .NET 8 / 10 · XML Schema · TypeScript · Playwright · GitHub Actions</sub>
+
 <a href="https://tickline-chart.vercel.app"><img src="./assets/oss-tickline.jpg" width="100%" alt="Tickline showing live BTC/USDT one-minute candles with Bollinger Bands, volume and RSI panes, a practice position with its countdown, a breakout price alert and a circled swing high."></a>
 
-**[Tickline](https://github.com/vongvisalsambath/tickline)** · a live trading chart for any website, in one HTML tag · **[Live demo →](https://tickline-chart.vercel.app)** · **[Docs](https://tickline-chart.vercel.app/docs/)**<br>
-Smooth real-time candles, six chart types, indicators, ten drawing tools, positions and price alerts, shapes and custom layers drawn from code, full screen in portrait or landscape, and image export, in about 32 KB with no dependencies. Works in plain HTML, React, Vue, Angular, Svelte and Blazor, with over 80 documented settings. Ships an MCP server and a Claude Code plugin so AI assistants can add it to a project. 86 tests.<br>
+**[Tickline](https://tickline-chart.vercel.app)** · a live trading chart for any website, in one HTML tag · **[Live demo →](https://tickline-chart.vercel.app)** · [Docs](https://tickline-chart.vercel.app/docs/) · [GitHub](https://github.com/vongvisalsambath/tickline)<br>
+Smooth real-time candles, six chart types, indicators, ten drawing tools, positions and price alerts, history that loads as you scroll back, zoom, shapes and custom layers drawn from code, full screen in portrait or landscape, and image export, in about 38 KB with no dependencies. Works in plain HTML, React, Vue, Angular, Svelte and Blazor, with more than 150 documented settings. Ships an MCP server and a Claude Code plugin so AI assistants can add it to a project. 111 tests.<br>
 <sub>TypeScript · Canvas 2D · Web Components · Vitest · esbuild · MCP</sub>
 
 <a href="https://slaclock.vercel.app"><img src="./assets/oss-slaclock.jpg" width="100%" alt="SlaClock demo: opening hours, holidays and a paused ticket on the left; the deadline, counted time and a week view of open, counted and paused hours on the right."></a>
 
-**[SlaClock](https://github.com/vongvisalsambath/slaclock)** · business-hours deadlines and pausable SLA timers for .NET · **[Try it in your browser →](https://slaclock.vercel.app)**<br>
+**[SlaClock](https://slaclock.vercel.app)** · business-hours deadlines and pausable SLA timers for .NET · **[Try it in your browser →](https://slaclock.vercel.app)** · [GitHub](https://github.com/vongvisalsambath/slaclock)<br>
 "Respond within 16 business hours", done properly: weekly hours with lunch breaks and night shifts, holidays and half days, any time zone with daylight saving handled, and a timer that pauses while you wait on the customer. 62 tests on .NET 8 and .NET 10, run on Linux, Windows and macOS.<br>
 <sub>C# · .NET 8 / 10 · xUnit · Blazor WebAssembly · GitHub Actions</sub>
 
