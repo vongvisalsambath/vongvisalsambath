@@ -19,11 +19,15 @@ I'm a Senior Enterprise Service Engineer at **CIMB Bank** in Phnom Penh. I build
 
 ## Selected work
 
-Both are internal banking systems, so their code isn't public. Each one is drawn here as what it is: the layers, the people, and the numbers.
+The three banking systems are internal, so their code isn't public. Each one is drawn here as what it is: the layers, the people, and the numbers.
 
 <p>
   <img src="./assets/work-gdt.jpg" width="49%" alt="GDT tax payment platform: four layers from the channels to the data, and about 100,000 transactions since go-live in late 2025.">
-  <img src="./assets/work-connect-hub.jpg" width="49%" alt="Connect Hub: a complaint workflow across four teams; 12 weeks from mockup to production handover, 6 roles, 3 regulatory report types automated.">
+  <img src="./assets/work-connect-hub.jpg" width="49%" alt="Connect Hub: a complaint and issue workflow across four teams; 12 weeks from mockup to production handover, 6 roles, 3 regulatory report types automated.">
+</p>
+<p>
+  <img src="./assets/work-outward-cheque.jpg" width="49%" alt="Outward Cheque: five steps from the branch to Operations and back, independent verification at each, in two versions.">
+  <img src="./assets/work-buildnest.jpg" width="49%" alt="BuildNest: a request goes from the workspace, through your approval and the gateway, to the model provider; a desktop connector does the file work.">
 </p>
 
 **GDT tax payment platform** · live since late 2025<br>
@@ -31,8 +35,16 @@ Branch staff collect property, vehicle and land tax through the web application 
 <sub>Angular · C# / .NET · PostgreSQL · PL/pgSQL</sub>
 
 **Connect Hub** · lead developer · 2026<br>
-A bank-wide complaint management platform. Any staff member raises a complaint, the owning department resolves it, the Call Centre verifies with the customer, and a central unit administers and reports. **12 weeks** from mockup to production handover, with six roles in one workflow and three regulatory report types automated.<br>
+A bank-wide platform for customer complaints and issues. Any staff member raises a case, the owning department resolves it, the Call Centre verifies with the customer, and a central unit administers and reports. Issues carry their own deadlines in working or calendar days, and the central unit has a complaint dashboard and a full change history for audit. **12 weeks** from mockup to production handover, with six roles in one workflow and three regulatory report types automated.<br>
 <sub>.NET 8 · Angular 18 · PostgreSQL · Docker · nginx</sub>
+
+**Outward Cheque** · lead developer · in production<br>
+The bank's process for cheques its branches send out for clearing. A branch prepares and submits a batch, a second person verifies it, Operations accepts or rejects each cheque, and returns and cancellations go back to the branch until it confirms it has the cheque in hand. Built in **two versions** from one design: a standalone application, and a module of the bank's internal MIS portal using its sign-in and branch permissions. Excel and PDF reports, a full audit history and workflow email.<br>
+<sub>.NET 8 / 10 · Angular 18 / 21 · PostgreSQL · Docker</sub>
+
+**BuildNest** · personal project<br>
+A workspace in the browser for working with language models on your own files and projects: see every tool the model calls, approve commands before they run, and review the diff of every file it changes. A desktop connector does the file, shell and browser work on your own computer. Its companion, **BuildNest Gateway**, keeps provider credentials on a server, issues separate client keys, and tracks usage and cost on a dashboard.<br>
+<sub>TypeScript · React · Node.js / Express · Electron · PostgreSQL</sub>
 
 ## Open source
 
